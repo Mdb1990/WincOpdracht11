@@ -1,0 +1,103 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: monospace;
+}
+
+h1 {
+  display: flex;
+  box-sizing: border-box;
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 20px;
+  color: dimgrey;
+  margin-top: -30px;
+}
+
+p {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  margin-left: 35%;
+}
+
+.Kaart_Carla {
+  width: 450px;
+  height: 250px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+.Kaart_Marijn {
+  width: 450px;
+  height: 250px;
+  border: 1px solid grey;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 10px;
+  margin-bottom: 100px;
+}
+
+hr {
+  margin-top: -10px;
+  margin-bottom: 5px;
+}
+
+.knoppen {
+  position: absolute;
+}
+
+img {
+  width: 10%;
+}
+
+.profile_pic {
+  margin-left: 400px;
+  margin-top: -20px;
+}
+
+.btn1 {
+  box-sizing: border-box;
+  font-family: monospace;
+  width: 220px;
+  height: 60px;
+  margin: -5px;
+  margin-left: 115px;
+  margin-top: 0px;
+  border-radius: 10px 0px 0px 10px;
+  transform: translateX(-50%);
+  border: 2px solid rgb(37, 202, 37);
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: rgb(37, 202, 37);
+}
+
+.btn2 {
+  box-sizing: border-box;
+  font-family: monospace;
+  width: 220px;
+  height: 60px;
+  margin: -5px;
+  border-radius: 0px 10px 10px 0px;
+  transform: translateX(-50%);
+  border: 2px solid red;
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: red;
+}
